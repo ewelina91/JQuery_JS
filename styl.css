@@ -1,0 +1,204 @@
+body
+{
+	background-image: url("zdjęcia/tlo3.jpg");
+	background-size: cover;
+}	
+.logo
+{  
+	width: 900px;
+	height: 150px;
+	margin-left: 220px;
+}
+#naglowek
+{
+	font-family: Garamond, serif;
+	font-weight: bold;
+	color: #263775;  
+ 	font-size: 25px;  
+ 	text-shadow: 3px 3px #76CDBC;
+ 	line-height: 1px;  
+}
+.naglowek2
+{
+	font-family: Garamond, serif;
+	text-align: center;
+	font-weight: bold;
+	color: #263775;  
+ 	font-size: 30px; 
+ 	text-shadow: 2px 2px #76CDBC; 
+ 	margin-left: 120px; 
+ 	line-height: 20px;
+}
+.left
+{
+	position: relative;
+	float: left;
+	margin-left: 215px;
+	width: 10%;
+	height: 570px;
+	margin-bottom: auto;
+	border-radius: 5px;
+}
+.right
+{
+ 	position: relative;
+	text-align: justify;
+	float: right;
+	margin-right: 215px;
+	width: 750px;
+	height: 570px; 
+	font-family: Garamond;
+	border-radius: 5px;
+	margin-top: -20px;
+}
+ol
+{
+	list-style-type: circle;
+}
+
+ul, ul li {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Garamond;
+	font-weight: bold;
+}
+
+ul {
+	width: 95%;
+}
+
+ul a:link, ul a:visited {
+	display: block;
+	width: 95%;
+	text-decoration: none;
+	background-color: #71A5A3;
+	color: #000;
+	padding: 5px;
+	border: 2px outset #ccc;
+	border-radius: 5px;
+}
+
+ul a:hover {
+	border-style: inset;
+	padding: 7px 3px 3px 7px;
+}
+.galeria
+{
+	margin-top: -1px;
+}
+#galeria
+{
+	text-align: center;
+	width: 600px;
+}
+img
+{
+	width: 190px;
+	height: 120px;
+}
+#przygoda
+{
+	margin-top: -30px;
+	margin-bottom: 50px;
+	line-height: 50px;
+}
+.stopka 
+{  
+	position: relative;
+	height: 50px;
+	clear: both;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: black
+} 
+#email
+{
+	text-align: center;
+	font-family: Verdana;
+	font-size: 12px; 
+	text-decoration: none;
+	color: #000;
+}
+legend {
+	color: #000;
+	font-family: Garamond;
+	font-size: 20px;
+	margin-left: 100px;
+}
+
+#wiadomosc {
+	height: 150px;
+	width: 200px;
+	margin-left: 50px;
+}
+#e-mail {
+	width: 200px;
+	margin-left: 50px;
+}
+#imie {
+	width: 200px;
+	margin-left: 50px;
+}
+#nazwisko {
+	width: 200px;
+	margin-left: 50px;
+}
+.hover{
+	margin-left: 100px;
+}
+#wyslij {
+	float: right;
+}
+fieldset {
+	border: none;
+}
+#formularz {
+	font-family: Garamond;
+}
+.galeria1 img {
+	display: none;
+	border: 2px solid #c1cdcd;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+	margin-left: 150px;
+}
+#nastepny {
+	border: 2px solid #c1cdcd;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+}
+
+#poprzedni {
+	border: 2px solid #c1cdcd;
+	border-radius: 10px;
+	padding: 5px;
+	position: relative;
+}
+
+.zdjecia {
+	display: block;
+	width: 400px;
+	height: 300px;
+}
+.przyciski {
+	list-style: none;
+	margin-left: 280px;
+}
+#zmianatla {
+	margin-top: 40px;
+	margin-left: 18px;
+}
+#top {
+	margin-top: 20px;
+}
+#czas {
+	margin-top: 20px;
+}
+#data {
+	margin-top: 30px;
+}
